@@ -98,6 +98,20 @@ footer{
     margin-top: 2rem;
 }
 
+/* scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #dddddd;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(140, 140, 140);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(120, 120, 120); 
+
 @media (max-width: 750px){
     main{
         width: 100%;
